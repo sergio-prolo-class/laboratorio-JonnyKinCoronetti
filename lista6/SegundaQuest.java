@@ -3,7 +3,6 @@ public class SegundaQuest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Leitura dos três lados
         System.out.print("Digite o lado a: ");
         double a = scanner.nextDouble();
         System.out.print("Digite o lado b: ");
@@ -22,7 +21,7 @@ public class SegundaQuest {
                 System.out.println("Triângulo Escaleno");
             }
         } else {
-            System.out.println("Os lados fornecidos NÃO formam um triângulo válido.");
+            System.out.println("lados inválidos!");
         }
 
         scanner.close();
