@@ -7,15 +7,14 @@ public class TrianguloDeFloyd {
         System.out.print("Digite o número de linhas do Triângulo de Floyd: ");
         int n = entrada.nextInt();
 
-        int num = 1; // primeiro número do triângulo
+        int num = 1; 
 
-        // Gera o triângulo linha por linha
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(num + " ");
                 num++;
             }
-            System.out.println(); // pula para a próxima linha
+            System.out.println();
         }
 
         entrada.close();
